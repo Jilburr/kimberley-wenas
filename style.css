@@ -1,0 +1,61 @@
+@font-face {
+    font-family: CocoGothic-Bold;
+    src: url(assets/fonts/CocoGothic-Bold_trial.ttf);
+}
+
+@font-face {
+    font-family: CocoGothic-Light;
+    src: url(assets/fonts/CocoGothic-Light_trial.ttf);
+}
+
+@font-face {
+    font-family: CocoGothic-ULight;
+    src: url(assets/fonts/CocoGothic-UltraLight_trial.ttf);
+}
+
+body {
+    font-family: 'CocoGothic-Light', sans-serif;
+    background-color: white;
+    padding: 20px 5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    font-family: 'CocoGothic-ULight', sans-serif;
+}
+
+.nav_active {
+    font-family: 'CocoGothic-Bold';
+    text-decoration: underline;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+img {
+    max-width: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+section {
+    text-align: right;
+}
