@@ -1,0 +1,27 @@
+@media (max-width: 960px) {
+
+    img {
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+
+    .about-container {
+        margin-top: 15vh;
+    }
+}
+
+@media (max-width: 760px) {
+    img {
+        width: 70%;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .desktop-nav {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: initial;
+    }
+}

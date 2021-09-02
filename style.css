@@ -16,7 +16,7 @@
 body {
     font-family: 'CocoGothic-Light', sans-serif;
     background-color: white;
-    padding: 20px 5px;
+    padding: 20px 50px;
 }
 
 a {
@@ -38,6 +38,32 @@ nav {
     font-family: 'CocoGothic-ULight', sans-serif;
 }
 
+.mobile-nav {
+    display: none;
+}
+
+.mobile-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 99;
+    font-size: 3.5rem;
+}
+
+.desktop-nav a {
+    margin-right: 15px;
+}
+
+.desktop-nav a:last-child {
+    margin-right: 0;
+}
+
 .nav_active {
     font-family: 'CocoGothic-Bold';
     text-decoration: underline;
@@ -50,12 +76,36 @@ figure {
     margin-top: 60px;
 }
 
+.fig-container {
+    display: flex;
+    perspective: 25px;
+}
+
 img {
     max-width: 400px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
 
 section {
     text-align: right;
+}
+
+button {
+    background: none;
+    border: none;
+    font-size: 24px;
+}
+
+.about-container {
+    margin-top: 25vh;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
 }

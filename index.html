@@ -6,21 +6,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Kimberley Wenas</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaquery.css">
     </head>
     <body>
         <header>
             <h1>Kimberley Wenas</h1>
-            <nav>
+            <nav class="desktop-nav">
                 <a href="index.html" class="nav_active">Portfolio</a>
                 <a href="About.html">About</a>
                 <a href="http://Instagram.com" target="blank_">Instagram</a>
             </nav>
+            <nav class="mobile-nav">
+                <button class="mobile-menu-toggle">
+                    X
+                </button>
+            </nav>
+            <div class="mobile-menu">
+                <a href="index.html" class="nav_active">Portfolio</a>
+                <a href="About.html">About</a>
+                <a href="http://Instagram.com" target="blank_">Instagram</a>
+            </div>
         </header>
         <main>
-            <figure>
-                <div>
+            <figure> 
+                <div id="img-container" class="fig-container">
                     <button id="button_left"><</button>
-                    <img src="assets/img/1.jpg">
+                    <img id="inner" src="assets/img/1.jpg">
                     <button id="button_right">></button>
                 </div>
             </figure>
