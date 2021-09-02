@@ -1,9 +1,9 @@
-const navToggle = document.querySelectorAll(".mobile-menu-toggle");
-const mobileMenu = document.querySelectorAll(".mobile-menu");
+// const navToggle = document.querySelectorAll(".mobile-menu-toggle");
+// const mobileMenu = document.querySelectorAll(".mobile-menu");
 
-navToggle.addEventListener('click', function (event) {
-  mobileMenu.classList.toggle('mobile-menu-active');
-});
+// navToggle.addEventListener('click', function (event) {
+//   mobileMenu.classList.toggle('mobile-menu-active');
+// });
 
 const imgDatabase = [
     "1.jpg",
