@@ -6,38 +6,63 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Kimberley Wenas</title>
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="mediaquery.css">
     </head>
     <body>
         <header>
             <h1>Kimberley Wenas</h1>
-            <nav class="desktop-nav">
+            <nav class="desktop-nav hidden">
                 <a href="index.html" class="nav_active">Portfolio</a>
                 <a href="About.html">About</a>
                 <a href="http://Instagram.com" target="blank_">Instagram</a>
             </nav>
-            <nav class="mobile-nav">
+            <nav class="mobile-nav show">
                 <button class="mobile-menu-toggle">
-                    X
+                    <img src="assets/img/menu.svg">
                 </button>
             </nav>
-            <div class="mobile-menu">
+        </header>
+        <main>
+            <div class="mobile-menu hidden">
                 <a href="index.html" class="nav_active">Portfolio</a>
                 <a href="About.html">About</a>
                 <a href="http://Instagram.com" target="blank_">Instagram</a>
+                <button id="mobile-menu-close"><img src="assets/img/close.svg" alt="close menu"></button>
             </div>
-        </header>
-        <main>
-            <figure> 
-                <div id="img-container" class="fig-container">
-                    <button id="button_left"><</button>
-                    <img id="inner" src="assets/img/1.jpg">
-                    <button id="button_right">></button>
+        
+            <section class="gallery">
+                <button id="button_left">
+                    <img src="assets/img/arrow.png">
+                </button>
+                <div class="holder">
+                    <figure id="slideshow">
+                        <img class="slideshow-img" src="assets/img/1.jpg">
+                        <img class="slideshow-img" src="assets/img/2.jpg">
+                        <img class="slideshow-img" src="assets/img/3.jpg">
+                        <img class="slideshow-img" src="assets/img/4.jpg">
+                        <img class="slideshow-img" src="assets/img/5.jpg">
+                        <img class="slideshow-img" src="assets/img/6.jpg">
+                        <img class="slideshow-img" src="assets/img/7.jpg">
+                        <img class="slideshow-img" src="assets/img/8.jpg">
+                        <img class="slideshow-img" src="assets/img/9.jpg">
+                        <img class="slideshow-img" src="assets/img/10.jpg">
+                        <img class="slideshow-img" src="assets/img/11.jpg">
+                        <img class="slideshow-img" src="assets/img/12.jpg">
+                        <img class="slideshow-img" src="assets/img/13.jpg">
+                        <img class="slideshow-img" src="assets/img/14.jpg">
+                        <img class="slideshow-img" src="assets/img/15.jpg">
+                        <img class="slideshow-img" src="assets/img/16.jpg">
+                        <img class="slideshow-img" src="assets/img/17.jpg">
+                        <img class="slideshow-img" src="assets/img/18.jpg">
+                    </figure>
                 </div>
-            </figure>
+                <button id="button_right">
+                    <img src="assets/img/arrow.png">
+                </button>
+            </section>
         </main>
 
         <script src="script.js"></script>
+        <script src="slideshow.js"></script>
     </body>
 
 </html>
