@@ -149,3 +149,16 @@ figure img {
     cursor: initial;
     display: initial;
 }
+
+/* Media Query */
+
+@media (min-width: 768px) {
+    
+    h1 {
+        width: 300px;
+    }
+
+    .gallery {
+        margin-top: 25px;
+    }
+}
