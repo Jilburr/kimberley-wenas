@@ -25,7 +25,6 @@ function nextImage(direction) {
     }
   }
 
-  console.log('test ' + index);
   figure.style.transform = "translateX(-" + index * 100 + "%)";
   
 };
