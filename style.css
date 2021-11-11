@@ -1,22 +1,17 @@
-@font-face {
-    font-family: CocoGothic-Bold;
-    src: url(assets/fonts/CocoGothic-Bold_trial.ttf);
-}
-
-@font-face {
-    font-family: CocoGothic-Light;
-    src: url(assets/fonts/CocoGothic-Light_trial.ttf);
-}
-
-@font-face {
-    font-family: CocoGothic-ULight;
-    src: url(assets/fonts/CocoGothic-UltraLight_trial.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;500&display=swap');
 
 body {
-    font-family: 'CocoGothic-Light', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     background-color: white;
     padding: 10px;
+}
+
+h1 {
+    width: 150px;
+}
+
+h2 {
+    font-weight: 500;
 }
 
 a {
@@ -33,20 +28,19 @@ a:hover {
     text-decoration: underline;
 }
 
+p {
+    font-weight: 300;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-h1 {
-    width: 150px;
-}
-
 /* Navbar */
 
 nav {
-    font-family: 'CocoGothic-ULight', sans-serif;
+    font-weight: 300;
 }
 
 
@@ -135,9 +129,9 @@ figure img {
 }
 
 .about-container a {
-    font-family: monospace;
     color: blue;
     font-size: 16px;
+    text-decoration: underline;
 }
 
 /* Generic Classes */
