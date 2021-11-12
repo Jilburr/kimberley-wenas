@@ -37,6 +37,11 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
+main {
+    height: 60vh;
+}
+
 /* Navbar */
 
 nav {
@@ -89,6 +94,7 @@ nav {
     margin-right: auto;
     margin-top: 50px;
     max-width: 800px;
+    height: 100%;
 }
 
 .gallery button {
@@ -156,6 +162,10 @@ figure img {
     
     h1 {
         width: 300px;
+    }
+
+    main {
+        height: 45vh;
     }
 
     .gallery {
